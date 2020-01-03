@@ -112,7 +112,7 @@ class SortComparator implements Comparator<Integer> {
 
 ```
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nota: Si la variable estatica de la clase DEBUG esta en true, muestra variables intermedia.
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nota: Si la variable DEBUG de la clase esta en true, muestra variables intermedia.
 ```
     private static final boolean DEBUG = true;
 
