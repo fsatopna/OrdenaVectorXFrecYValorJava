@@ -54,7 +54,7 @@ Comprender y utilizar HashMap e interfaz sort para resolución de problemas de c
 
 ## Estrategia: 
 * Crea Mapa (HashMap),  clave(elemento) y valor(frec)          `Map {1=1, 3=2, 4=1, 5=4}` 
-* Ordenar el mapade pares {elemento, frecuencia}.   `           Map { 1 => 1, 4 => 1, 3 => 2, 5 => 4 }`
+* Ordenar res desde mapa de pares {elemento, frecuencia}.   `   
 
 
 ## Implementación: 
@@ -112,7 +112,7 @@ class SortComparator implements Comparator<Integer> {
 
 ```
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alternativa de Ordenar el mapa de pares {elemento, frecuencia}.
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nota: Si la variable estatica de la clase DEBUG esta en true, muestra variables intermedia.
 ```
     private static final boolean DEBUG = true;
 
